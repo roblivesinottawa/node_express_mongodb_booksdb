@@ -9,7 +9,7 @@ const app = express();
 
 const port = process.env.PORT || 3000
 
-const uri = "mongodb+srv://tech-rob:NcS9wQnvGXh6X6jP@cluster0.cgebv.mongodb.net/comic_books_db";
+const uri = "";
 mongoose.connect(uri, {useUnifiedTopology: true, useNewUrlParser: true} );
 
 app.use(bodyParser.urlencoded({extended: false}))
